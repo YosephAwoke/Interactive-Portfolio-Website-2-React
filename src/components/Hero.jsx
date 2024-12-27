@@ -1,5 +1,5 @@
 import { HERO_CONTENT } from "../constants";
-import profilephoto from "../assets/jos3.PNG";
+import profilephoto from "../assets/josX.PNG";
 
 const Hero = () => {
   return (
