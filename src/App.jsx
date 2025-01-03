@@ -1,5 +1,3 @@
-
-
 // import React from "react";
 import About from "./components/About";
 import Experience from "./components/Experience";
@@ -19,10 +17,19 @@ const App = () => {
 
       <div className="container mx-auto px-8">
         <Navbar />
-        <Hero />
-        <About />
-        <Technologies />
-        <Experience />
+
+        <div id="home">
+          <Hero />
+        </div>
+        <div id="about">
+          <About />
+        </div>
+        <div id="skills">
+          <Technologies />
+        </div>
+        <div id="experience">
+          <Experience />
+        </div>
       </div>
     </div>
   );
