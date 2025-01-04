@@ -1,9 +1,11 @@
 // import React from "react";
-import About from "./components/About";
+// import About from "./components/About";
 import Experience from "./components/Experience";
 import Hero from "./components/Hero";
 import Navbar from "./components/Navbar";
+import { Skills } from "./components/Skills";
 import Technologies from "./components/Technologies";
+import './App.css';
 
 const App = () => {
   return (
@@ -21,8 +23,8 @@ const App = () => {
         <div id="home">
           <Hero />
         </div>
-        <div id="about">
-          <About />
+        <div id="skills">
+          <Skills />
         </div>
         <div id="skills">
           <Technologies />
