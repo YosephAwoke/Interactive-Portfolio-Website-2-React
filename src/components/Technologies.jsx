@@ -41,7 +41,19 @@ import { DiRedis } from "react-icons/di";
 import { SiMongodb } from "react-icons/si";
 import { FaNodeJs } from "react-icons/fa";
 import { BiLogoPostgresql } from "react-icons/bi";
-import { SiAdobeillustrator, SiAdobephotoshop, SiAdobepremierepro,SiAdobeaftereffects } from "react-icons/si";
+import {
+  SiAdobeillustrator,
+  SiAdobephotoshop,
+  SiAdobepremierepro,
+  SiAdobeaftereffects,
+} from "react-icons/si";
+import {
+  SiTensorflow,
+  SiPytorch,
+  SiOpencv,
+  SiKeras,
+  SiPandas,
+} from "react-icons/si";
 
 const Technologies = () => {
   return (
@@ -95,75 +107,88 @@ const Technologies = () => {
         </div>
       </div>
 
-      {/* Graphic Design Section */}
-      <h1 className="my-10 text-2xl text-center w-full lg:w-1/2 ">
-        Technologies Used for Graphic Design
-      </h1>
-      <div className="flex flex-wrap items-center justify-center gap-4 w-full lg:w-1/2">
-        {/* Photoshop */}
-        <div className="flex flex-col items-center">
-          <div className="p-4 border-4 rounded-2xl border-neutral-800">
-            <SiAdobephotoshop className="text-6xl text-blue-500" />
+      <div className="flex flex-wrap lg:flex-nowrap justify-between gap-8">
+        {/* Graphic Design Section */}
+        <div className=" ml-10 mt-10 w-full lg:w-1/2">
+          <h1 className=" mb-8 text-2xl text-left">
+            Technologies Used for Graphic Design
+          </h1>
+          <div className=" flex flex-wrap items-center gap-4">
+            {/* Photoshop */}
+            <div className="flex flex-col items-center">
+              <div className="p-4 border-4 rounded-2xl border-neutral-800">
+                <SiAdobephotoshop className="text-6xl text-blue-500" />
+              </div>
+              <p className="mt-2 text-center">Photoshop</p>
+            </div>
+            {/* Illustrator */}
+            <div className="flex flex-col items-center">
+              <div className="p-4 border-4 rounded-2xl border-neutral-800">
+                <SiAdobeillustrator className="text-6xl text-orange-500" />
+              </div>
+              <p className="mt-2 text-center">Illustrator</p>
+            </div>
+            {/* Premiere */}
+            <div className="flex flex-col items-center">
+              <div className="p-4 border-4 rounded-2xl border-neutral-800">
+                <SiAdobepremierepro className="text-6xl text-purple-500" />
+              </div>
+              <p className="mt-2 text-center">Premiere</p>
+            </div>
+            {/* After Effects */}
+            <div className="flex flex-col items-center">
+              <div className="p-4 border-4 rounded-2xl border-neutral-800">
+                <SiAdobeaftereffects className="text-6xl text-indigo-500" />
+              </div>
+              <p className="mt-2 text-center">After Effects</p>
+            </div>
           </div>
-          <p className="mt-2 text-center">Photoshop</p>
-        </div> 
-        {/* Illustrator */}
-        <div className="flex flex-col items-center">
-          <div className="p-4 border-4 rounded-2xl border-neutral-800">
-            <SiAdobeillustrator className="text-6xl text-orange-500" />
-          </div>
-          <p className="mt-2 text-center">Illustrator</p>
         </div>
-        {/* Premiere */}
-        <div className="flex flex-col items-center">
-          <div className="p-4 border-4 rounded-2xl border-neutral-800">
-            <SiAdobepremierepro className="text-6xl text-purple-500" />
-          </div>
-          <p className="mt-2 text-center">Premiere</p>
-        </div>
-        {/* After Effects */}
-        <div className="flex flex-col items-center">
-          <div className="p-4 border-4 rounded-2xl border-neutral-800">
-            <SiAdobeaftereffects className="text-6xl text-indigo-500" />
-          </div>
-          <p className="mt-2 text-center">After Effects</p>
-        </div>
-      </div> 
 
-      {/* Graphic Design Section */}
-      <h1 className="my-10 text-2xl text-center w-full lg:w-1/2">
-        Technologies Used for Graphic Design
-      </h1>
-      <div className="flex flex-wrap items-center justify-center gap-4 w-full lg:w-1/2">
-        {/* Photoshop */}
-        <div className="flex flex-col items-center">
-          <div className="p-4 border-4 rounded-2xl border-neutral-800">
-            <SiAdobephotoshop className="text-6xl text-blue-500" />
+        {/* Deep Learning Section */}
+        <div className=" mt-10 w-full lg:w-1/2">
+          <h1 className="mb-8 text-2xl text-center">
+            Technologies Used for Deep Learning
+          </h1>
+          <div className="flex flex-wrap items-center justify-end gap-4">
+            {/* TensorFlow */}
+            <div className="flex flex-col items-center">
+              <div className="p-4 border-4 rounded-2xl border-neutral-800">
+                <SiTensorflow className="text-6xl text-orange-600" />
+              </div>
+              <p className="mt-2 text-center">TensorFlow</p>
+            </div>
+            {/* PyTorch */}
+            <div className="flex flex-col items-center">
+              <div className="p-4 border-4 rounded-2xl border-neutral-800">
+                <SiPytorch className="text-6xl text-red-500" />
+              </div>
+              <p className="mt-2 text-center">PyTorch</p>
+            </div>
+            {/* OpenCV */}
+            <div className="flex flex-col items-center">
+              <div className="p-4 border-4 rounded-2xl border-neutral-800">
+                <SiOpencv className="text-6xl text-teal-500" />
+              </div>
+              <p className="mt-2 text-center">OpenCV</p>
+            </div>
+            {/* Keras */}
+            <div className="flex flex-col items-center">
+              <div className="p-4 border-4 rounded-2xl border-neutral-800">
+                <SiKeras className="text-6xl text-red-400" />
+              </div>
+              <p className="mt-2 text-center">Keras</p>
+            </div>
+            {/* Pandas */}
+            <div className="flex flex-col items-center">
+              <div className="p-4 border-4 rounded-2xl border-neutral-800">
+                <SiPandas className="text-6xl text-blue-600" />
+              </div>
+              <p className="mt-2 text-center">Pandas</p>
+            </div>
           </div>
-          <p className="mt-2 text-center">Photoshop</p>
-        </div> 
-        {/* Illustrator */}
-        <div className="flex flex-col items-center">
-          <div className="p-4 border-4 rounded-2xl border-neutral-800">
-            <SiAdobeillustrator className="text-6xl text-orange-500" />
-          </div>
-          <p className="mt-2 text-center">Illustrator</p>
         </div>
-        {/* Premiere */}
-        <div className="flex flex-col items-center">
-          <div className="p-4 border-4 rounded-2xl border-neutral-800">
-            <SiAdobepremierepro className="text-6xl text-purple-500" />
-          </div>
-          <p className="mt-2 text-center">Premiere</p>
-        </div>
-        {/* After Effects */}
-        <div className="flex flex-col items-center">
-          <div className="p-4 border-4 rounded-2xl border-neutral-800">
-            <SiAdobeaftereffects className="text-6xl text-indigo-500" />
-          </div>
-          <p className="mt-2 text-center">After Effects</p>
-        </div>
-      </div> 
+      </div>
     </div>
   );
 };
