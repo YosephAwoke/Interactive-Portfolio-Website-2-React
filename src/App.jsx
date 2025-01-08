@@ -4,8 +4,10 @@ import Experience from "./components/Experience";
 import Hero from "./components/Hero";
 import Navbar from "./components/Navbar";
 import { Skills } from "./components/Skills";
-import Technologies from "./components/Technologies";
+// import Technologies from "./components/Technologies";
 import './App.css';
+import ProjectsMade from "./components/ProjectsMade";
+// import { ProjectsMade } from "./components/ProjectsMade";
 
 const App = () => {
   return (
@@ -26,11 +28,12 @@ const App = () => {
         <div id="skills">
           <Skills />
         </div>
-        <div id="skills">
-          <Technologies />
-        </div>
+        
         <div id="experience">
           <Experience />
+        </div>
+        <div id="projects">
+          <ProjectsMade  />
         </div>
       </div>
     </div>

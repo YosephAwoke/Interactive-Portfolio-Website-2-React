@@ -16,7 +16,7 @@ const Hero = () => {
             >
               Full Stack Developer and Grapics Designer
             </span>
-            <p className="my-2  flex justify-center py-6 font-light tracking-tighter">
+            <p className="my-2  flex justify-center py-6 font-light text-blueGray-300 text-l lg:text-xl">
               {HERO_CONTENT}
             </p>
           </div>
