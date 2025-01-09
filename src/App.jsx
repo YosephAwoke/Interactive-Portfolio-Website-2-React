@@ -3,10 +3,11 @@
 import Experience from "./components/Experience";
 import Hero from "./components/Hero";
 import Navbar from "./components/Navbar";
-import { Skills } from "./components/Skills";
+import Skills from "./components/Skills";
 // import Technologies from "./components/Technologies";
 import './App.css';
 import ProjectsMade from "./components/ProjectsMade";
+import  Footer  from "./components/Footer";
 // import { ProjectsMade } from "./components/ProjectsMade";
 
 const App = () => {
@@ -34,6 +35,9 @@ const App = () => {
         </div>
         <div id="projects">
           <ProjectsMade  />
+        </div>
+        <div >
+          <Footer />
         </div>
       </div>
     </div>
