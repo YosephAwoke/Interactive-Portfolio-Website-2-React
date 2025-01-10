@@ -1,7 +1,9 @@
 import { HERO_CONTENT } from "../constants";
 import profilephoto from "../assets/josX.PNG";
+import { ArrowRightCircle } from "react-bootstrap-icons";
+import PropTypes from "prop-types";
 
-const Hero = () => {
+const Hero = ({scrollToContact}) => {
   return (
     <div className="border-b border-neutral-900 pb-12 lg:mb-35">
       <div className="flex flex-wrap">
@@ -19,6 +21,7 @@ const Hero = () => {
             <p className="my-2  flex justify-center py-6 font-light text-blueGray-300 text-l lg:text-xl">
               {HERO_CONTENT}
             </p>
+            <button onClick={scrollToContact}>Let&apos;s Connect <ArrowRightCircle size={25} /> </button> 
           </div>
         </div>
         <div className="w-full lg:w-1/2 lg:p-8">
@@ -32,3 +35,9 @@ const Hero = () => {
 };
 
 export default Hero;
+
+// Define prop types
+Hero.propTypes = {
+  scrollToContact: PropTypes.func.isRequired,
+  
+};

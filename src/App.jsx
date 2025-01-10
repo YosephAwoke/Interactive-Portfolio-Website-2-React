@@ -1,16 +1,35 @@
-// import React from "react";
-// import About from "./components/About";
-import Experience from "./components/Experience";
-import Hero from "./components/Hero";
+import "./App.css";
+import { useState, useEffect, useRef } from 'react';
 import Navbar from "./components/Navbar";
-import Skills from "./components/Skills";
-// import Technologies from "./components/Technologies";
-import './App.css';
+import Hero from "./components/Hero";
+// import Skills from "./components/Skills";
+import Technologies from "./components/Technologies";
+import Experience from "./components/Experience";
 import ProjectsMade from "./components/ProjectsMade";
-import  Footer  from "./components/Footer";
-// import { ProjectsMade } from "./components/ProjectsMade";
+import Contact from "./components/Contact";
+import Footer from "./components/Footer";
+
+
+
 
 const App = () => {
+
+  const contactRef = useRef(null);
+  const [contactLoaded, setContactLoaded] = useState(false); // New state variable
+
+  useEffect(() => {
+      // Check if contactRef is attached after every render
+      if (contactRef.current) {
+        setContactLoaded(true);
+      }
+  });
+
+  const scrollToContact = () => {
+      if (contactLoaded) { // Only scroll if the ref is attached
+        contactRef.current.scrollIntoView({ behavior: 'smooth' });
+      }
+  };
+
   return (
     <div className="overflow-hidden text-neutral-300 antialiased slection:bg-cyan-300 selection:text-cyan-900">
       <div className="fixed top-0 -z-10 h-full w-full">
@@ -24,19 +43,22 @@ const App = () => {
         <Navbar />
 
         <div id="home">
-          <Hero />
+          <Hero scrollToContact={scrollToContact}/>
         </div>
         <div id="skills">
-          <Skills />
+          <Technologies />
         </div>
-        
         <div id="experience">
           <Experience />
         </div>
         <div id="projects">
-          <ProjectsMade  />
+          <ProjectsMade />
         </div>
-        <div >
+        <div  >
+          <Contact ref={contactRef} />
+
+        </div>
+        <div>
           <Footer />
         </div>
       </div>

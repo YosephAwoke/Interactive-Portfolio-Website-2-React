@@ -30,7 +30,7 @@ const ProjectsMade = () => {
         
         ))}
       </div>
-    </div>
+    </div>  
   );
 };
 
