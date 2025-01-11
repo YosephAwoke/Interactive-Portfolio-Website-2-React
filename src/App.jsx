@@ -39,7 +39,7 @@ const App = () => {
         ></div>
       </div>
 
-      <div className="container mx-auto px-8">
+      <div className="container mx-auto px-2">
         <Navbar />
 
         <div id="home">
@@ -54,6 +54,7 @@ const App = () => {
         <div id="projects">
           <ProjectsMade />
         </div>
+      </div>
         <div  >
           <Contact ref={contactRef} />
 
@@ -61,7 +62,7 @@ const App = () => {
         <div>
           <Footer />
         </div>
-      </div>
+      
     </div>
   );
 };
