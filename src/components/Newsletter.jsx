@@ -3,25 +3,7 @@ import { Col, } from "react-bootstrap";
 import PropTypes from "prop-types";
 
 export const Newsletter = () => {
-  // const [email, setEmail] = useState('');
-
-  // useEffect(() => {
-  //     if (status === 'success') clearFields();
-  // }, [status])
-
-  // const handleSubmit = (e) => {
-  //     e.preventDefault();
-  //     email &&
-  //     email.indexOf("@") > -1 &&
-  //     onValidated({
-  //         EMAIL: email
-  //     })
-
-  // }
-
-  // const clearFields = () => {
-  //     setEmail('');
-  // }
+ 
 
   const handleDownload = () => {
     // This is where you define the path to your resume file
@@ -33,20 +15,22 @@ export const Newsletter = () => {
   };
 
   return (
-    <Col lg={12}>
-      <div >
-        <div className="newsletter-bx flex flex-wrap lg:flex-nowrap justify-between gap-">
-          
-            <h3 className="ml-5 W-full font-semibold text-2xl"> Download My Resume to Know More About Me</h3>
+    <Col >
+      <div className="items-center justify-center flex flex-col">
         
-          
-            <div className="new-email-bx">
-              <button type="submit" onClick={handleDownload}>
-                Download Resume
+        <div className="newsletter-bx new-email-bx">
+              <h3 className=" flex justify-between items-center font-semibold text-sm lg:text-2xl "> Download My Resume to Know More About Me
+              <button className="ml-5" type="submit" onClick={handleDownload}>
+                  Download Resume
               </button>
-            </div>
-          </div>
+              </h3>
+          
+            
+              
+                
         </div>
+        
+      </div>
        
     </Col>
   );
