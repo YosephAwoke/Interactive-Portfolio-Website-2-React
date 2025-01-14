@@ -36,8 +36,8 @@ const Footer = () => {
                 >
                   <img
                     src={logox}
-                    width={150}
-                    className="w-40 h-20 me-3"
+                    width={200}
+                    className="w-70 h-20 me-3"
                     alt="Jos Logo"
                   />
                   <span className="self-center text-3xl font-extralight whitespace-nowrap dark:text-white">

@@ -43,8 +43,8 @@ const ProjectsMade = () => {
                 isVisible ? "animate__animated animate__slideInUp" : ""
               }`}
             >
-              <h2 className="text-4xl font-bold text-white">Projects</h2>
-              <p className="text-gray-400 text-lg leading-relaxed mt-4 mb-10">
+              <h2 className="text-xl md:text-3xl">Projects</h2>
+              <p className="text-gray-400 text-lg leading-relaxed mt-6 mb-10">
                 Experienced in all stages of the creative and development cycle, I excel in both programming and graphic design. Proficient in Python, React, Kotlin, and Adobe Creative Suite, I bring ideas to life through design and code. I thrive in fast-paced environments, consistently delivering innovative solutions.
               </p>
             </div>
