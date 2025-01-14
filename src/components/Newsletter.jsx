@@ -18,7 +18,7 @@ export const Newsletter = () => {
     <Col >
       <div className="items-center justify-center flex flex-col">
         
-        <div className="newsletter-bx new-email-bx">
+        <div className="newsletter-bx new-email-bx ">
               <h3 className=" flex justify-between items-center font-semibold text-sm lg:text-2xl "> Download My Resume to Know More About Me
               <button className="ml-5" type="submit" onClick={handleDownload}>
                   Download Resume

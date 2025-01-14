@@ -96,8 +96,8 @@ p.success {
 p.danger {
 	color: red;
 } */
-/************ Navbar Css ************/
-/* nav.navbar {
+*********** Navbar Css ************/
+nav.navbar {
   padding: 18px 0;
   position: fixed;
   width: 100%;
@@ -111,7 +111,7 @@ nav.navbar.scrolled {
 }
 nav.navbar a.navbar-brand {
     width: 9%;
-}
+} 
 nav.navbar .navbar-nav .nav-link.navbar-link {
   font-weight: 400;
   color: #fff !important;
@@ -243,7 +243,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon:before {
 }
 nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 	border-color: transparent;
-} */
+}
 
 /************ Banner Css ************/
 /* .banner {
@@ -386,11 +386,12 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   }
 }
 .background-image-left {
-  top: 28%;
+  
   position: absolute;
   bottom: 0;
-  width: 60%;
+  width: 70%;
   z-index: -4;
+  margin-left: -18%;
   
 }
 
@@ -467,13 +468,13 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   border: 1px solid rgba(255, 255, 255, 0.5);
   border-radius: 0 55px 55px 0;
 }
-.proj-imgbx {
+/* .proj-imgbx {
   position: relative;
   border-radius: 30px;
   overflow: hidden;
   margin-bottom: 24px;
-}
-.proj-imgbx::before {
+} */
+/* .proj-imgbx::before {
   content: "";
   background: linear-gradient(90.21deg, #AA367C -5.91%, #4A2FBD 111.58%);
   opacity: 0.85;
@@ -510,7 +511,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   font-weight: 400;
   font-size: 15px;
   letter-spacing: 0.8px;
-}
+} */
 .background-image-right {
   top: 20%;
   position: absolute;
@@ -562,13 +563,13 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   opacity: 0.8;
 }
 .contact form button {
-  font-weight: 700;
+  font-weight: 800;
   color: #000;
   background-color: #fff;
   padding: 14px 48px;
   font-size: 18px;
   margin-top: 25px;
-  border-radius: 0;
+  border-radius: 18px;
   position: relative;
   transition: 0.3s ease-in-out;
 }
@@ -585,6 +586,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   width: 0;
   height: 100%;
   position: absolute;
+  border-radius: 18px;
   top: 0;
   left: 0;
   z-index: 0;
@@ -601,7 +603,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   background-position: center center;
   background-size: cover;
   background-repeat: no-repeat;
-  margin-bottom: -60px;
+
   
 }
 .newsletter-bx {

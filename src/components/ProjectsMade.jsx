@@ -1,36 +1,78 @@
-import { PROJECTS } from "../constants";
+import { useState } from "react";
+import TrackVisibility from "react-on-screen";
+import Projectx from "./Projectx";
 
 const ProjectsMade = () => {
+  const [activeTab, setActiveTab] = useState("first");
+
+  const renderContent = () => {
+    switch (activeTab) {
+      case "first":
+        return (
+          <div className="text-white">
+            
+            <Projectx />
+          </div>
+        );
+      case "second":
+        return (
+          <div className="text-white">
+            <h3 className="text-xl font-semibold mb-4">Graphic Design Projects</h3>
+            <p>Here are some of my creative graphic design projects.</p>
+          </div>
+        );
+      case "third":
+        return (
+          <div className="text-white">
+            <h3 className="text-xl font-semibold mb-4">Deep Learning Projects</h3>
+            <p>These are some innovative deep learning projects.</p>
+          </div>
+        );
+      default:
+        return null;
+    }
+  };
+
   return (
-    <div className="border-b border-neutral-900 pb-4">
-      <h1 className="my-20 text-center text-4xl">Projects</h1>
-      <div className="">
-        {PROJECTS.map((project, index) => (
-          <div key={index} className="mb-8 flex flex-wrap lg:justify-center">
-            <div className="w-full lg:w-1/4">
-                <img
-                  src={project.image}
-                  width={150}
-                  height={150}
-                  alt={project.title}
-                  className="mb-6 rounded"
-                />
+    <section className="w-full py-20 " id="Projects">
+      <div className="container mx-auto px-4">
+        <TrackVisibility>
+          {({ isVisible }) => (
+            <div
+              className={`text-center ${
+                isVisible ? "animate__animated animate__slideInUp" : ""
+              }`}
+            >
+              <h2 className="text-4xl font-bold text-white">Projects</h2>
+              <p className="text-gray-400 text-lg leading-relaxed mt-4 mb-10">
+                Experienced in all stages of the creative and development cycle, I excel in both programming and graphic design. Proficient in Python, React, Kotlin, and Adobe Creative Suite, I bring ideas to life through design and code. I thrive in fast-paced environments, consistently delivering innovative solutions.
+              </p>
             </div>
-          
-          <div className="w-full max-w-xl lg:w-3/4">
-          <h6 className="mb-2 font-semibold">{project.title}</h6>
-          <p className="mb-4 text-neutral-400"> {project.description}</p>
-          {project.technologies.map((tech, index) => (
-            <span key={index} className="inline-block bg-neutral-900 rounded-full px-2 py-1 text-sm font-medium text-purple-400 mr-2 mb-2">
-              {tech}
-            </span>
-          ))}
-          </div>
-          </div>
-        
-        ))}
+          )}
+        </TrackVisibility>
+        <div className="flex lg:ml-14 lg:mr-14 justify-center mb-10 bg-white/10 rounded-full overflow-hidden">
+          {["Full-Stack Development", "Graphic Design", "Deep Learning"].map(
+            (tabName, index) => {
+              const key = ["first", "second", "third"][index];
+              return (
+                <button
+                  key={key}
+                  className={`flex-1 py-4 text-white text-sm lg:text-xl font-medium text-center transition duration-300 ${
+                    activeTab === key
+                      ? "bg-gradient-to-r from-pink-500 to-purple-600"
+                      : "hover:bg-gradient-to-r hover:from-pink-500 hover:to-purple-600"
+                  }`}
+                  onClick={() => setActiveTab(key)}
+                >
+                  {tabName}
+                </button>
+              );
+            }
+          )}
+        </div>
+        <div className="mt-10">{renderContent()}</div>
       </div>
-    </div>  
+    </section>
   );
 };
 

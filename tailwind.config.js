@@ -10,7 +10,21 @@ export default {
     colors: {
       ...colors,
     },
-    extend: {},
+    extend: {
+      animation: {
+        gradient: 'gradient 6s ease infinite', // Defines the custom animation
+      },
+      keyframes: {
+        gradient: {
+          '0%': { backgroundPosition: '0% 50%' },
+          '50%': { backgroundPosition: '100% 50%' },
+          '100%': { backgroundPosition: '0% 50%' },
+        },
+      },
+      backgroundSize: {
+        '200%': '200% 200%',
+      },
+    },
   },
   plugins: [],
 }
