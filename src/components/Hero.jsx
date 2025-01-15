@@ -5,7 +5,7 @@ import PropTypes from "prop-types";
 
 const Hero = ({ scrollToContact }) => {
   return (
-    <div className="border-b border-neutral-900 pb-12 lg:mb-35">
+    <div className="border-b border-neutral-900 pb-12 mt-32 lg:mb-25">
       <div className="flex flex-wrap">
         <div className=" lg:w-1/2">
           <div className="w-full flex flex-col item-center lg:items-start">

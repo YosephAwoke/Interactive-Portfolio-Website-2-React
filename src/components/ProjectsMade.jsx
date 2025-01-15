@@ -50,7 +50,7 @@ const ProjectsMade = () => {
             </div>
           )}
         </TrackVisibility>
-        <div className="flex lg:ml-14 lg:mr-14 justify-center mb-10 bg-white/10 rounded-full overflow-hidden">
+        <div className="flex lg:ml-14 lg:mr-14 justify-center mb-10 bg-white/10 rounded-full overflow-hidden border border-white border-opacity-50">
           {["Full-Stack Development", "Graphic Design", "Deep Learning"].map(
             (tabName, index) => {
               const key = ["first", "second", "third"][index];

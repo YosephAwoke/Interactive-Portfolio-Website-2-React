@@ -1,7 +1,7 @@
 import "./App.css";
 import { useState, useEffect, useRef } from "react";
 
-import Navbar from "./components/Navbar";
+import NavBar from "./components/Navbar";
 import Hero from "./components/Hero";
 // import Skills from "./components/Skills";
 import Technologies from "./components/Technologies";
@@ -40,7 +40,7 @@ const App = () => {
         </div>
 
         <div className="container mx-auto px-2">
-          <Navbar />
+          <NavBar />
 
           <div id="home">
             <Hero scrollToContact={scrollToContact} />
