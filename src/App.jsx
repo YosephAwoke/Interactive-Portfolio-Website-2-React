@@ -56,7 +56,7 @@ const App = () => {
           </div>
         </div>
 
-        <div>
+        <div id="contact">
           <Contact ref={contactRef} />
         </div>
         <div>

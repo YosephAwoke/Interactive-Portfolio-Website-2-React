@@ -2,7 +2,7 @@ import { EXPERIENCES } from "../constants";
 
 const Experience = () => {
   return (
-    <div className="border-b border-neutral-900 pb-4">
+    <div className="border-b border-neutral-900 pt-24">
       <h1 className="my-10 text-center text-4xl">Experience</h1>
       <div className="">
         {EXPERIENCES.map((experience, index) => (

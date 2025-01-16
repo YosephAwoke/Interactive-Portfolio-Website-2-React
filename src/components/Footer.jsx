@@ -24,7 +24,9 @@ const Footer = () => {
 
   return (
     <div>
+      <div className="flex justify-center animate-updown">
       <Newsletter  />
+      </div>
       <footer className="footer bg-white dark:bg-gray-900">
         <div className="mx-auto w-full max-w-screen-2xl p-4 py-20 lg:py-15">
           <div className="md:flex md:justify-between">

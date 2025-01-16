@@ -34,7 +34,7 @@ const ProjectsMade = () => {
   };
 
   return (
-    <section className="w-full py-20 " id="Projects">
+    <section className="w-full pt-32 " id="Projects">
       <div className="container mx-auto px-4">
         <TrackVisibility>
           {({ isVisible }) => (

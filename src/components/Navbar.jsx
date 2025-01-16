@@ -51,12 +51,12 @@ const NavBar = () => {
             >
               Projects
             </button>
-            {/* <button
+            <button
             className="text-gray-300 hover:text-blue-500 transition duration-300"
             onClick={() => scrollToSection("contact")}
           >
-            Contact Us
-          </button> */}
+            Contact
+          </button>
           </div>
 
           {/* Social Icons */}
@@ -128,7 +128,7 @@ const NavBar = () => {
               className="text-gray-300 hover:text-blue-500 transition duration-300"
               onClick={() => scrollToSection("contact")}
             >
-              Contact Us
+              Contact
             </button>
           </div>
 

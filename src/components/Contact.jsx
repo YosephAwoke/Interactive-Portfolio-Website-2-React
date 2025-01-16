@@ -56,7 +56,7 @@ const Contact = forwardRef((props, ref) => {
 
     return (
         <section className="contact" id="Contact" ref={ref}>
-            <div className=" flex flex-wrap lg:flex-nowrap justify-between ">
+            <div className=" pt-14 flex flex-wrap lg:flex-nowrap justify-between ">
                 <div className="w-full lg:w-1/2">
                     <Container>
                         <Row className="align-items-center">

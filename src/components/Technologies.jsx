@@ -138,7 +138,7 @@ const Technologies = () => {
 
       <img className="background-image-left" src={colorSharp} alt="Image" />
 
-      <div className="pb-24 border-b  border-neutral-800">
+      <div className=" border-b  border-neutral-800">
         {/* Full-Stack Development Section */}
         <h1 className="mb-8 text-xl md:text-2xl text-center lg:text-center">
           Technologies Used for Full-Stack Development
