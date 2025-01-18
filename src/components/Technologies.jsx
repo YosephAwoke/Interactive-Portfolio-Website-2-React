@@ -45,7 +45,6 @@ import "../App.css";
 
 import { RiReactjsLine } from "react-icons/ri";
 import { TbBrandNextjs } from "react-icons/tb";
-import { DiRedis } from "react-icons/di";
 import { SiMongodb } from "react-icons/si";
 import { FaNodeJs } from "react-icons/fa";
 import { BiLogoPostgresql } from "react-icons/bi";
@@ -165,14 +164,7 @@ const Technologies = () => {
             </div>
             <p className="mt-2 text-center  text-neutral-400">MongoDB</p>
           </div>
-          {/* Redis */}
-          <div className="flex flex-col items-center">
-            <div className="p-2 md:p-4 border-4 rounded-2xl border-neutral-800">
-              <DiRedis className="text-4xl md:text-6xl  text-red-700" />
-            </div>
-            <p className="mt-2 text-center  text-neutral-400">Redis</p>
-          </div>
-          {/* Node.js */}
+          
           <div className="flex flex-col items-center ">
             <div className="p-2 md:p-4 border-4 rounded-2xl border-neutral-800">
               <FaNodeJs className="text-4xl md:text-6xl text-green-500" />

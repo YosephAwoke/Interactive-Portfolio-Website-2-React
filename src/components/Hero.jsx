@@ -24,12 +24,22 @@ const Hero = ({ scrollToContact }) => {
             </p>
           </div>
           <div className="flex justify-start">
+            <div className="w-full lg:w-1/2 ">
             <button
-              className="px-6 py-3 sm:px-10 sm:py-4 bg-gradient-to-r from-blue-600 via-violet-700 to-purple-500 hover:bg-slate-600 rounded-full blueShadow text-white  sm:text-lg md:text-xl font-bold flex items-center  space-x-2"
+              className="px-3 py-3 sm:px-5 sm:py-4 bg-gradient-to-r from-blue-600 via-violet-700 to-purple-500 hover:bg-slate-600 rounded-full blueShadow text-white  sm:text-sm md:text-lg font-bold flex items-center  space-x-2"
+              onClick={scrollToContact}
+            >
+              Download CV 
+            </button>
+            </div>
+            <div className="w-full lg:w-1/2 ">
+            <button
+              className="px-3 py-3 sm:px-5 sm:py-4 bg-gradient-to-r from-blue-600 via-violet-700 to-purple-500 hover:bg-slate-600 rounded-full blueShadow text-white  sm:text-sm md:text-lg font-bold flex items-center  space-x-2"
               onClick={scrollToContact}
             >
               Let&apos;s Connect  <span className="ml-4"><ArrowRightCircle size={30} /></span> 
             </button>
+            </div>
           </div>
           
         </div>
