@@ -10,6 +10,7 @@ import Experience from "./components/Experience";
 import Contact from "./components/Contact";
 import Footer from "./components/Footer";
 import ProjectsMade from "./components/ProjectsMade";
+import SubHiroSection from "./components/SubHiroSection";
 
 const App = () => {
   const contactRef = useRef(null);
@@ -45,6 +46,10 @@ const App = () => {
           <div id="home">
             <Hero scrollToContact={scrollToContact} />
           </div>
+          <div >
+            <SubHiroSection />
+          </div>
+
           <div id="skills">
             <Technologies />
           </div>
