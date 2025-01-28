@@ -6,7 +6,7 @@ import { PiRectangleThin } from "react-icons/pi";
 
 const Hero = ({ scrollToContact }) => {
   return (
-    <div className="border-b border-neutral-900 pb-15 pt-20 mt-32 lg:mb-25">
+    <div className="border-b border-neutral-900 pb-15 pt-20 mt-32 lg:mb-25 mb-10">
       <div className="flex flex-wrap">
         <div className=" lg:w-1/2">
           <div className="w-full flex flex-col item-center lg:items-start">
