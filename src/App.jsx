@@ -6,6 +6,8 @@ import Hero from "./components/Hero";
 
 // import Skills from "./components/Skills";
 import Technologies from "./components/Technologies";
+import ExperienceRoute from "./components/ExprienceSection/ExperienceRoute";
+// import ExperienceMain from "./components/ExprienceSection/ExperienceMain";
 import Experience from "./components/Experience";
 
 import Contact from "./components/Contact";
@@ -14,6 +16,7 @@ import ProjectsMade from "./components/ProjectsMade";
 import SubHiroSection from "./components/SubHiroSection";
 // import AboutMeMain from "./components/AboutMe/AboutMeText";
 import AboutMe from "./components/AboutMe/AboutMe";
+
 
 const App = () => {
   const contactRef = useRef(null);
@@ -58,6 +61,12 @@ const App = () => {
         <div id="skills">
           <Technologies />
         </div>
+        <div >
+          <ExperienceRoute />
+        </div>
+        {/* <div id="experience">
+          <ExperienceMain />
+        </div> */}
         <div id="experience">
           <Experience />
         </div>

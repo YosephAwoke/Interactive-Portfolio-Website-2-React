@@ -93,7 +93,7 @@ const Technologies = () => {
         <Row>
           <Col>
             <div className="skill-bx">
-              <h2 className="text-xl md:text-2xl -">Skills</h2>
+              <h2 className="my-10 text-5xl text-cyan-400 md:text-2xl ">My Skills</h2>
 
               <p className="text-sm md:text-base">
                 Experienced in all stages of the creative and development cycle,

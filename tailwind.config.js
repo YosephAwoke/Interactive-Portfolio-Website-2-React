@@ -31,5 +31,11 @@ export default {
       },
     },
   },
+  variants: {
+    extend: {
+      backgroundColor: ['hover'], // Enable hover for background color
+      textColor: ['hover'],       // Enable hover for text color
+    },
+  },
   plugins: [],
-}
+};
