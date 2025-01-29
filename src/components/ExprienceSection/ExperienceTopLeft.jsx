@@ -1,13 +1,21 @@
-import ExperienceInfo from "./ExperienceInfo"
-
+import ExperienceInfo from "./ExperienceInfo";
 
 const ExperienceTopLeft = () => {
   return (
-    <div><p>Since 2018</p>
-    <div className="w-full h-1 mt-4 bg-lightBrown lg:block sm:hidden">
-      <ExperienceInfo number="6" text="Years of Experience"  />
-    </div></div>
-  )
-}
+    <div className="flex flex-col gap-6 w-[300px]">
+      <p className="text-orange-500 font-bold uppercase text-3xl font-special text-center">Since 2018</p>
+      <div className="flex justify-center  items-center gap-4">
+        <ExperienceInfo number="6" text="Years of Experience" />
+        <p className="font-bold text-6xl text-lightBlue-300">-</p>
+        <ExperienceInfo text="More than" />
+        <ExperienceInfo number="20" text="Projects Completed" />
+      </div>
+      <p>
+        With over 5 years of expereience building dynamic and user-friendly Web
+        applications and also becoming proficient in Graphics Designing
+      </p>
+    </div>
+  );
+};
 
-export default ExperienceTopLeft
+export default ExperienceTopLeft;
