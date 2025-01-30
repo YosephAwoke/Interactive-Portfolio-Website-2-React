@@ -10,9 +10,9 @@ const ExperienceTopLeft = () => {
         <ExperienceInfo text="More than" />
         <ExperienceInfo number="20" text="Projects Completed" />
       </div>
-      <p>
-        With over 5 years of expereience building dynamic and user-friendly Web
-        applications and also becoming proficient in Graphics Designing
+      <p className="text-center text-white text-sm">
+        With over 5 years of expereience of building dynamic and user-friendly Web
+        applications and also becoming proficient as Graphics Designer
       </p>
     </div>
   );
