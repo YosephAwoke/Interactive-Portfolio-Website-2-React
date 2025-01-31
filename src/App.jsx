@@ -61,9 +61,9 @@ const App = () => {
         <div id="skills">
           <Technologies />
         </div>
-        <div >
+        {/* <div >
           <ExperienceRoute />
-        </div>
+        </div> */}
         {/* <div id="experience">
           <ExperienceMain />
         </div> */}
