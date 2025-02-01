@@ -3,7 +3,7 @@ import ExperienceRoute from "./ExprienceSection/ExperienceRoute";
 
 const Experience = () => {
   return (
-    <div className="border-b border-neutral-900 pt-20">
+    <div className="border-b border-neutral-900 pt-8">
       <ExperienceRoute />
       {/* <h1 className="my-10 text-center text-4xl text-cyan-400">Experience</h1> */}
       <div className="">
