@@ -1,7 +1,7 @@
 import { FaArrowRight } from "react-icons/fa";
 import SingleExperience from "./SingleExperience";
 
-const experienceData = [
+const experience = [
   {
     job: "Senior ICT Expert",
     company: "Prime Minister Office of Ethiopia (Unity Park)",
@@ -40,7 +40,7 @@ const experienceData = [
 const AllExperience = () => {
   return (
     <div>
-      {experienceData.map((experience, index) => {
+      {experience.map((experience, index) => {
         return (
           <>
             {" "}
