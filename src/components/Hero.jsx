@@ -5,8 +5,18 @@ import PropTypes from "prop-types";
 import { PiRectangleThin } from "react-icons/pi";
 
 const Hero = ({ scrollToContact }) => {
+
+  const handleDownload = () => {
+    // This is where you define the path to your resume file
+    const resumeLink = "/resume/Yoseph Awoke Fentie.pdf"; // Replace with actual path
+    const link = document.createElement("a");
+    link.href = resumeLink;
+    link.download = "Yoseph_Awoke_Resume.pdf"; // Name for the downloaded file
+    link.click();
+  };
+
   return (
-    <div className="border-b border-neutral-900 pb-15 pt-20 mt-32 lg:mb-25 mb-10">
+    <div className="border-b border-neutral-900  pt-20 mt-32 ">
       <div className="flex flex-wrap">
         <div className=" lg:w-1/2">
           <div className="w-full flex flex-col item-center lg:items-start">
@@ -26,15 +36,15 @@ const Hero = ({ scrollToContact }) => {
           <div className="flex justify-start">
             <div className="w-full lg:w-1/2 ">
             <button
-              className="px-3 py-3 sm:px-5 sm:py-4 bg-gradient-to-r from-blue-600 via-violet-700 to-purple-500 hover:bg-slate-600 rounded-full blueShadow text-white  sm:text-sm md:text-lg font-bold flex items-center  space-x-2"
-              onClick={scrollToContact}
+              className="ml-20 px-10 py-3 sm:px-5 sm:py-4 bg-gradient-to-r from-blue-600 via-violet-700 to-purple-500 hover:bg-slate-600 rounded-full blueShadow text-white  sm:text-sm md:text-lg  flex items-center  space-x-2"
+              onClick={handleDownload}
             >
               Download CV 
             </button>
             </div>
-            <div className="w-full lg:w-1/2 ">
+            <div className="ml-[-50]   lg:w-1/2 ">
             <button
-              className="px-3 py-3 sm:px-5 sm:py-4 bg-gradient-to-r from-blue-600 via-violet-700 to-purple-500 hover:bg-slate-600 rounded-full blueShadow text-white  sm:text-sm md:text-lg font-bold flex items-center  space-x-2"
+              className=" px-3 py-3 sm:px-5 sm:py-4 bg-gradient-to-r from-blue-600 via-violet-700 to-purple-500 hover:bg-slate-600 rounded-full blueShadow text-white  sm:text-sm md:text-lg  flex items-center  space-x-2"
               onClick={scrollToContact}
             >
               Let&apos;s Connect  <span className="ml-4"><ArrowRightCircle size={30} /></span> 
