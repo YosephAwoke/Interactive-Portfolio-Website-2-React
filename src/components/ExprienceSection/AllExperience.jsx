@@ -11,8 +11,8 @@ const experience = [
       "deep learning projects",
       "overseeing ICT infrastructure",
       "developing office automation systems",
-      "handle graphic design tasks, such as creating flyers, brochures for parks like Unity Park and Friendship Square,",
-      "",
+      "handle graphic design tasks, such as creating flyers, brochures for parks like Unity Park and Friendship Square",
+      
     ],
   },
   {
@@ -39,12 +39,12 @@ const experience = [
 ];
 const AllExperience = () => {
   return (
-    <div>
+    <div className="flex md:flex-row sm: flex-col items-center justify-between">
       {experience.map((experience, index) => {
         return (
           <>
             {" "}
-            <SingleExperience key={index} experience={experience} />;
+            <SingleExperience key={index} experience={experience} />
             {index < 2 ? <FaArrowRight className="text-6xl text-blue-500 lg:block sm:hidden" /> : ""}
           </>
         );

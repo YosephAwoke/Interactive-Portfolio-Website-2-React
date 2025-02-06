@@ -1,4 +1,4 @@
-import { EXPERIENCES } from "../constants";
+// import { EXPERIENCES } from "../constants";
 import ExperienceRoute from "./ExprienceSection/ExperienceRoute";
 
 const Experience = () => {
@@ -6,7 +6,7 @@ const Experience = () => {
     <div className="border-b border-neutral-900 pt-8">
       <ExperienceRoute />
       {/* <h1 className="my-10 text-center text-4xl text-cyan-400">Experience</h1> */}
-      <div className="">
+      {/* <div className="">
         {EXPERIENCES.map((experience, index) => (
           <div key={index} className="mb-8 flex flex-wrap lg:justify-center">
             <div className="w-full lg:w-1/4">
@@ -28,7 +28,7 @@ const Experience = () => {
             </div>
           </div>
         ))}
-      </div>
+      </div> */}
     </div>
   );
 };
