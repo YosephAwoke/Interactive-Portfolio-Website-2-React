@@ -45,7 +45,7 @@ const AllExperience = () => {
           <>
             {" "}
             <SingleExperience key={index} experience={experience} />
-            {index < 2 ? <FaArrowRight className="text-6xl text-blue-500 lg:block sm:hidden" /> : ""}
+            {index < 2 ? <FaArrowRight className="text-6xl text-blue-500 lg:block sm:hidden hidden" /> : ""}
           </>
         );
       })}
