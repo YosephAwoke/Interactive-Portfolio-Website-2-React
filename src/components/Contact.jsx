@@ -61,7 +61,7 @@ const Contact = forwardRef((props, ref) => {
                     <Container>
                         <Row className="align-items-center">
                             <Col md={6}>
-                                <img src={contactImg} className="max-w-2xl" alt="Contact Us" />
+                                <img src={contactImg} className=" ml-10 max-w-lg" alt="Contact Us" />
                             </Col>
                         </Row>
                     </Container>
