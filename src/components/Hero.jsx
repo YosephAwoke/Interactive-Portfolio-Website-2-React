@@ -36,7 +36,7 @@ const Hero = ({ scrollToContact }) => {
           <div className="flex justify-start">
             <div className="w-full lg:w-1/2 ">
             <button
-              className="ml-20 px-10 py-3 sm:px-5 sm:py-4 bg-gradient-to-r from-blue-600 via-violet-700 to-purple-500 hover:bg-slate-600 rounded-full blueShadow text-white  sm:text-sm md:text-lg  flex items-center  space-x-2"
+              className="ml-5 px-10 py-3 sm:px-5 sm:py-4 bg-gradient-to-r from-blue-600 via-violet-700 to-purple-500 hover:bg-slate-600 rounded-full blueShadow text-white  sm:text-sm md:text-lg  flex items-center  space-x-2"
               onClick={handleDownload}
             >
               Download CV 
@@ -44,7 +44,7 @@ const Hero = ({ scrollToContact }) => {
             </div>
             <div className="ml-[-50]   lg:w-1/2 ">
             <button
-              className=" px-3 py-3 sm:px-5 sm:py-4 bg-gradient-to-r from-blue-600 via-violet-700 to-purple-500 hover:bg-slate-600 rounded-full blueShadow text-white  sm:text-sm md:text-lg  flex items-center  space-x-2"
+              className=" px-5  sm:px-5 sm:py-4 bg-gradient-to-r from-blue-600 via-violet-700 to-purple-500 hover:bg-slate-600 rounded-full blueShadow text-white  sm:text-sm md:text-lg  flex items-center  space-x-2"
               onClick={scrollToContact}
             >
               Let&apos;s Connect  <span className="ml-4"><ArrowRightCircle size={30} /></span> 
