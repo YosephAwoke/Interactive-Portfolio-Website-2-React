@@ -1,5 +1,5 @@
 import { HERO_CONTENT } from "../constants";
-import profilephoto from "../assets/josX.PNG";
+import profilephoto from "../assets/josX.png";
 import { ArrowRightCircle } from "react-bootstrap-icons";
 import PropTypes from "prop-types";
 import { PiRectangleThin } from "react-icons/pi";
