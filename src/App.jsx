@@ -18,7 +18,6 @@ import SubHiroSection from "./components/SubHiroSection";
 import AboutMe from "./components/AboutMe/AboutMe";
 import ContactMeMain from "./components/ContactMeSection/ContactMeMain";
 
-
 const App = () => {
   const contactRef = useRef(null);
   const [contactLoaded, setContactLoaded] = useState(false); // New state variable
@@ -39,10 +38,16 @@ const App = () => {
 
   return (
     <div className="overflow-hidden text-neutral-300 antialiased slection:bg-cyan-300 selection:text-cyan-900">
-      <div className="fixed top-0 -z-10 h-full w-full">
+      {/* <div className="fixed top-0 -z-10 h-full w-full">
         <div
           className="absolute top-0 z-[-2] h-screen w-screen bg-neutral-950 bg-[radial-gradient(ellipse_80%_80%_at_50%_-20%,
                 rgba(120,119,198,0.3),rgba(255,255,255,0))]"
+        ></div>
+      </div> */}
+      <div className="fixed inset-0 -z-10">
+        <div
+          className="absolute inset-0 z-[-2] min-h-screen bg-neutral-950 bg-[radial-gradient(ellipse_80%_80%_at_50%_-20%,rgba(120,119,198,0.3),rgba(255,255,255,0))]"
+          style={{ backgroundAttachment: "fixed" }}
         ></div>
       </div>
 
@@ -74,7 +79,7 @@ const App = () => {
         <div id="projects">
           <ProjectsMade />
         </div>
-        <div id= "contact">
+        <div id="contact">
           <ContactMeMain />
         </div>
       </div>
