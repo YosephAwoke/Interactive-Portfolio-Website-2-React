@@ -2,6 +2,7 @@ import "./App.css";
 import { useState, useEffect, useRef } from "react";
 
 import NavBar from "./components/Navbar";
+// import NavBarMain from "./components/navbar/NavBarMain";
 import Hero from "./components/Hero";
 
 // import Skills from "./components/Skills";
@@ -51,37 +52,40 @@ const App = () => {
         ></div>
       </div>
 
-      <div className="container mx-auto px-2">
-        <NavBar />
+      <div>
+          <NavBar />
+        </div>
+      {/* <div className="">
+        <NavBarMain />
+      </div> */}
 
-        <div id="home">
-          <Hero scrollToContact={scrollToContact} />
-        </div>
-        <div>
-          <SubHiroSection />
-        </div>
-        <div id="about">
-          <AboutMe />
-        </div>
+      <div id="home">
+        <Hero scrollToContact={scrollToContact} />
+      </div>
+      <div>
+        <SubHiroSection />
+      </div>
+      <div id="about">
+        <AboutMe />
+      </div>
 
-        <div id="skills">
-          <Technologies />
-        </div>
-        {/* <div >
+      <div id="skills">
+        <Technologies />
+      </div>
+      {/* <div >
           <ExperienceRoute />
         </div> */}
-        {/* <div id="experience">
+      {/* <div id="experience">
           <ExperienceMain />
         </div> */}
-        <div id="experience">
-          <Experience />
-        </div>
-        <div id="projects">
-          <ProjectsMade />
-        </div>
-        <div id="contact">
-          <ContactMeMain />
-        </div>
+      <div id="experience">
+        <Experience />
+      </div>
+      <div id="projects">
+        <ProjectsMade />
+      </div>
+      <div id="contact">
+        <ContactMeMain />
       </div>
 
       <div id="contact">

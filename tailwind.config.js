@@ -7,9 +7,9 @@ export default {
     "./src/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
-    colors: {
-      ...colors,
-    },
+    // colors: {
+    //   ...colors,
+    // },
     extend: {
       animation: {
         gradient: 'gradient 6s ease infinite', // Defines the custom animation
@@ -29,6 +29,10 @@ export default {
       backgroundSize: {
         '200%': '200% 200%',
       },
+    },
+    fontFamily: {
+      body: ['Inter', 'Josefin Sans'],
+      special: ['Roboto']
     },
   },
   variants: {

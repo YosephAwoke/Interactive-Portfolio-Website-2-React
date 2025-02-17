@@ -58,7 +58,7 @@ const Hero = ({ scrollToContact }) => {
             <img src={profilephoto} alt="Yoseph Awoke" />
           </div>
           <div className="absolute -z-10 flex justify-center items-center animate-pulse">
-            <PiRectangleThin className="md:h-[80%] sm:h-[110%] min-h-[600px] w-auto text-cyan-300 blur-lg animate-[spin_30s_linear_infinite]"/>
+            <PiRectangleThin className="md:h-[80%] sm:h-[110%] min-h-[300px] w-full text-cyan-300 blur-lg animate-[spin_30s_linear_infinite]"/>
           </div>
         </div>
       </div>
