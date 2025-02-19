@@ -51,46 +51,47 @@ const App = () => {
           style={{ backgroundAttachment: "fixed" }}
         ></div>
       </div>
-
-      <div>
+      <div className="container mx-auto px-2">
+        <div>
           <NavBar />
         </div>
-      {/* <div className="">
+        {/* <div className="">
         <NavBarMain />
       </div> */}
 
-      <div id="home">
-        <Hero scrollToContact={scrollToContact} />
-      </div>
-      <div>
-        <SubHiroSection />
-      </div>
-      <div id="about">
-        <AboutMe />
-      </div>
+        <div id="home">
+          <Hero scrollToContact={scrollToContact} />
+        </div>
+        <div>
+          <SubHiroSection />
+        </div>
+        <div id="about">
+          <AboutMe />
+        </div>
 
-      <div id="skills">
-        <Technologies />
-      </div>
-      {/* <div >
+        <div id="skills">
+          <Technologies />
+        </div>
+        {/* <div >
           <ExperienceRoute />
         </div> */}
-      {/* <div id="experience">
+        {/* <div id="experience">
           <ExperienceMain />
         </div> */}
-      <div id="experience">
-        <Experience />
-      </div>
-      <div id="projects">
-        <ProjectsMade />
+        <div id="experience">
+          <Experience />
+        </div>
+        <div id="projects">
+          <ProjectsMade />
+        </div>
       </div>
       <div id="contact">
         <ContactMeMain />
       </div>
 
-      <div id="contact">
+      {/* <div id="contact">
         <Contact ref={contactRef} />
-      </div>
+      </div> */}
       <div>
         <Footer />
       </div>
