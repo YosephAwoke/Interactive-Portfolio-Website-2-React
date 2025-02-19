@@ -89,9 +89,9 @@ const App = () => {
         <ContactMeMain />
       </div>
 
-      {/* <div id="contact">
+      <div id="contact">
         <Contact ref={contactRef} />
-      </div> */}
+      </div>
       <div>
         <Footer />
       </div>

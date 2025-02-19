@@ -29,6 +29,9 @@ export default {
       backgroundSize: {
         '200%': '200% 200%',
       },
+      boxShadow: {
+        cyanShadow: '0px 0px 20px 0px rgba(94, 206, 220, 0.5)'
+      }
     },
     fontFamily: {
       body: ['Inter', 'Josefin Sans'],

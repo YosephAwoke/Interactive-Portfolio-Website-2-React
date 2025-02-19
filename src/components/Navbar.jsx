@@ -16,8 +16,8 @@ const NavBar = () => {
   };
 
   return (
-    <nav className="fixed top-0 left-0 right-0  z-50 bg-neutral-950 text-neutral-300 shadow-lg">
-      <div className="flex items-center justify-between py-4 px-8 lg:px-40 rounded-r-full rounded-l-full border-[0.5px] border-orange-500">
+    <nav className="fixed top-0 left-0 right-5  z-50 text-neutral-300 shadow-lg">
+      <div className="flex items-center justify-between mt-2 px-7 max-w-[1800px]   bg-neutral-950 mx-auto md:px-20 lg:px-40 rounded-r-full rounded-l-full border-[0.5px] border-orange-500">
         {/* Logo */}
         <div className="flex items-center">
           <img className="w-18" src={logo} alt="logo" />
@@ -84,10 +84,18 @@ const NavBar = () => {
             </a>
           </div>
         </div>
+        <div className=" md:flex items-center gap-8 lg:ml-10 text-lg">
+          <button
+            className=" px-4 py-2 rounded-full text-xl font-bold text-white border-cyan-500 border flex item-center gap-1 bg-gradient-to-r from-cyan-500 to-orange-400 hover:border-orange-400 hover:scale-110 transition-all duration-500 hover:shadow-cyanShadow"
+            onClick={() => scrollToSection("contact")}
+          >
+            Hire Me
+          </button>
+        </div>
 
         {/* Hamburger Icon (Visible on Mobile) */}
         <button
-          className="md:hidden text-3xl"
+          className=" ml-2 md:hidden text-3xl"
           onClick={() => setIsMenuOpen(!isMenuOpen)}
         >
           {isMenuOpen ? <FiX /> : <FiMenu />}
@@ -95,7 +103,7 @@ const NavBar = () => {
 
         {/* Mobile Navigation Links */}
         <div
-          className={`absolute mt-10 top-16 left-0 right-0 bg-neutral-950 p-4 md:hidden transition-transform ${
+          className={`absolute mt-10 top-16  left-0 right-0 bg-neutral-950 p-4 md:hidden transition-transform ${
             isMenuOpen ? "block" : "hidden"
           }`}
         >

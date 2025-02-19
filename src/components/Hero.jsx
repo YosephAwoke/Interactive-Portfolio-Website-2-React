@@ -25,11 +25,11 @@ const Hero = ({ scrollToContact }) => {
             </h1>
             <span
               className="bg-gradient-to-r from-pink-300 via-slate-300 to-purple-500 
-            bg-clip-text text-4xl tracking-tight text-transparent"
+            bg-clip-text text-4xl tracking-tight text-transparent mx-4 "
             >
               Full Stack Developer and Grapics Designer
             </span>
-            <p className="my-2  flex justify-center py-6 font-light text-blueGray-300 text-l lg:text-xl">
+            <p className="my-2 mx-5 flex justify-between items-center py-6 font-light text-blueGray-300 text-l lg:text-xl">
               {HERO_CONTENT}
             </p>
           </div>
@@ -58,7 +58,7 @@ const Hero = ({ scrollToContact }) => {
             <img src={profilephoto} alt="Yoseph Awoke" />
           </div>
           <div className="absolute -z-10 flex justify-center items-center animate-pulse">
-            <PiRectangleThin className="md:h-[80%] sm:h-[110%] min-h-[300px] w-full text-cyan-300 blur-lg animate-[spin_30s_linear_infinite]"/>
+            <PiRectangleThin className="md:h-[80%] sm:h-[110%] min-h-[250px] w-full text-cyan-300 blur-lg animate-[spin_30s_linear_infinite]"/>
           </div>
         </div>
       </div>
