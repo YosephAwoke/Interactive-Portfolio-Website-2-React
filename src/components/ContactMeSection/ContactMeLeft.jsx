@@ -4,7 +4,7 @@ const ContactMeLeft = () => {
   return (
     <div>
       <div>
-        <h2 className="text-orange-400 text-4xl mb-4">Get In Touch</h2>
+        <h2 className="text-orange-300 text-4xl font-bold mb-4 shadow-black">Get In Touch</h2>
         <p className="text-white">
           Feel free to reach out if you&apos;d like to collaborate
           <br />
