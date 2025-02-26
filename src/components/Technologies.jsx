@@ -1,39 +1,4 @@
-// import { RiReactjsLine } from "react-icons/ri";
-// import { TbBrandNextjs } from "react-icons/tb";
-// import { DiRedis } from "react-icons/di";
-// import { SiMongodb } from "react-icons/si";
-// import { FaNodeJs } from "react-icons/fa";
-// import {BiLogoPostgresql} from "react-icons/bi";
 
-// const Technologies = () => {
-//   return (
-//     <div className="border-b border-neutral-800 pb-24 ">
-//       <h1 className="my-20 text-center text-4xl"> Technologies used for Full- Stack Developement</h1>
-//       <div className="flex flex-wrap items-center justify-center gap-4">
-//         <div className="rounded-2xl border-4 border-neutral-800 p-4">
-//           <RiReactjsLine className="text-7xl text-cyan-400" />
-//         </div>
-//         <div className="rounded-2xl border-4 border-neutral-800 p-4">
-//           <TbBrandNextjs className="text-7xl" />
-//         </div>
-//         <div className="rounded-2xl border-4 border-neutral-800 p-4">
-//           <SiMongodb className="text-7xl text-green-500" />
-//         </div>
-//         <div className="rounded-2xl border-4 border-neutral-800 p-4">
-//           <DiRedis className="text-7xl text-red-700" />
-//         </div>
-//         <div className="rounded-2xl border-4 border-neutral-800 p-4">
-//           <FaNodeJs className="text-7xl text-green-500" />
-//         </div>
-//         <div className="rounded-2xl border-4 border-neutral-800 p-4">
-//           <BiLogoPostgresql className="text-7xl text-sky-700" />
-//         </div>
-//       </div>
-//     </div>
-//   );
-// };
-
-// export default Technologies;
 
 import { Col, Container, Row } from "react-bootstrap";
 
@@ -46,7 +11,7 @@ import "../App.css";
 import { RiReactjsLine } from "react-icons/ri";
 import { TbBrandNextjs } from "react-icons/tb";
 import { SiMongodb } from "react-icons/si";
-import { FaNodeJs } from "react-icons/fa";
+import { FaNodeJs } from "react-icons/fa"; 
 import { BiLogoPostgresql } from "react-icons/bi";
 import { PiFigmaLogoFill } from "react-icons/pi";
 import {
@@ -190,7 +155,7 @@ const Technologies = () => {
               {/* Photoshop */}
               <div className="flex flex-col items-center">
                 <div className="p-2 md:p-4 border-4 rounded-2xl border-neutral-800">
-                  <SiAdobephotoshop className="text-4xl md:text-6xl text-blue-500" />
+                  <SiAdobephotoshop className="text-3xl md:text-5xl text-blue-500" />
                 </div>
                 <p className="mt-2 text-sm md:text-base text-center  text-neutral-400">
                   Photoshop
@@ -199,7 +164,7 @@ const Technologies = () => {
               {/* Illustrator */}
               <div className="flex flex-col items-center">
                 <div className="p-2 md:p-4 border-4 rounded-2xl border-neutral-800">
-                  <SiAdobeillustrator className="text-4xl md:text-6xl text-orange-500" />
+                  <SiAdobeillustrator className="text-3xl md:text-5xl text-orange-500" />
                 </div>
                 <p className="mt-2 text-sm md:text-base text-center  text-neutral-400">
                   Illustrator
@@ -208,7 +173,7 @@ const Technologies = () => {
               {/* Premiere */}
               <div className="flex flex-col items-center">
                 <div className="p-2 md:p-4 border-4 rounded-2xl border-neutral-800">
-                  <SiAdobepremierepro className="text-4xl md:text-6xl text-purple-500" />
+                  <SiAdobepremierepro className="text-3xl md:text-5xl text-purple-500" />
                 </div>
                 <p className="mt-2 text-sm md:text-base text-center  text-neutral-400">
                   Premiere
@@ -217,19 +182,19 @@ const Technologies = () => {
               {/* After Effects */}
               <div className="flex flex-col items-center">
                 <div className="p-2 md:p-4 border-4 rounded-2xl border-neutral-800">
-                  <SiAdobeaftereffects className="text-4xl md:text-6xl text-indigo-500" />
+                  <SiAdobeaftereffects className="text-3xl md:text-5xl text-indigo-500" />
                 </div>
                 <p className="mt-2 text-sm md:text-base text-center  text-neutral-400">
-                  After Effects
+                  After Et
                 </p>
               </div>
               {/* Figma */}
               <div className="flex flex-col items-center">
                 <div className="p-2 md:p-4 border-4 rounded-2xl border-neutral-800">
-                  <PiFigmaLogoFill className="text-4xl md:text-6xl text-blue-400" />
+                  <PiFigmaLogoFill className="text-3xl md:text-5xl text-blue-400" />
                 </div>
                 <p className="mt-2 text-sm md:text-base text-center  text-neutral-400">
-                  Figma
+                  Figma 
                 </p>
               </div>
             </div>
