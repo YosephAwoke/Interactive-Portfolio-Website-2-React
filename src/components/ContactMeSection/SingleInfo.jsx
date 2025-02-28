@@ -1,4 +1,6 @@
 
+import PropTypes from 'prop-types';
+
 const SingleInfo = ({text , Image}) => {
   return (
     <div className="flex  gap-4 items-center justify-start">
@@ -7,5 +9,9 @@ const SingleInfo = ({text , Image}) => {
     </div>
   )
 }
-
+SingleInfo.propTypes = {
+  text: PropTypes.string.isRequired,
+  Image: PropTypes.elementType.isRequired,
+};
 export default SingleInfo;
+

@@ -3,9 +3,9 @@
 import logox from "../assets/img/Jos Logo cut2.png";
 
 import { FaLinkedin, FaGithub, FaInstagram } from "react-icons/fa";
-import { MdOutlineMarkEmailRead } from "react-icons/md";
-import { FaPhoneSquare } from "react-icons/fa";
-import { FaLocationDot } from "react-icons/fa6";
+// import { MdOutlineMarkEmailRead } from "react-icons/md";
+// import { FaPhoneSquare } from "react-icons/fa";
+// import { FaLocationDot } from "react-icons/fa6";
 
 // import { MailchimpForm } from "./MailchimpForm";
 import { Newsletter } from "./Newsletter";
@@ -47,7 +47,7 @@ const Footer = () => {
                   </span>
                 </button>
               </div>
-              <div className="ml-6 w-full lg:w-1/2">
+              {/* <div className="ml-6 w-full lg:w-1/2">
                 <h2 className="ml-10 mb-6 text-sm font-semibold text-gray-900 uppercase dark:text-white text-lg">
                   CONTACT ME
                 </h2>
@@ -83,7 +83,7 @@ const Footer = () => {
                     Addis Ababa, Ethiopia
                   </span>
                 </button>
-              </div>
+              </div> */}
             </div>
             <div className="grid grid-cols-2 gap-8 sm:gap-6 sm:grid-cols-4">
               <div className="lg:w-1/2">
