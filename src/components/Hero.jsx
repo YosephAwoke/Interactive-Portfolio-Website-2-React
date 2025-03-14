@@ -3,8 +3,10 @@ import profilephoto from "../assets/josX.png";
 import { ArrowRightCircle } from "react-bootstrap-icons";
 import PropTypes from "prop-types";
 import { PiRectangleThin } from "react-icons/pi";
+import { useState } from "react";
 
 const Hero = ({ scrollToContact }) => {
+  const [isMenuOpen, setIsMenuOpen] = useState(false);
 
   const handleDownload = () => {
     // This is where you define the path to your resume file
@@ -13,6 +15,13 @@ const Hero = ({ scrollToContact }) => {
     link.href = resumeLink;
     link.download = "Yoseph_Awoke_Resume.pdf"; // Name for the downloaded file
     link.click();
+  };
+  const scrollToSection = (id) => {
+    const section = document.getElementById(id);
+    if (section) {
+      section.scrollIntoView({ behavior: "smooth" });
+    }
+    setIsMenuOpen(false); // Close the menu after clicking
   };
 
   return (
@@ -27,7 +36,7 @@ const Hero = ({ scrollToContact }) => {
               className="bg-gradient-to-r from-pink-300 via-slate-300 to-purple-500 
             bg-clip-text text-4xl tracking-tight text-transparent mx-4 "
             >
-              Full Stack Developer and Grapics Designer
+              Full Stack Developer | Grapics Designer
             </span>
             <p className="my-2 mx-5 flex justify-between items-center py-6 font-light text-blueGray-300 text-l lg:text-xl">
               {HERO_CONTENT}
@@ -45,7 +54,7 @@ const Hero = ({ scrollToContact }) => {
             <div className="ml-[-50]   lg:w-1/2 ">
             <button
               className=" px-5  sm:px-5 sm:py-4 bg-gradient-to-r from-blue-600 via-violet-700 to-purple-500 hover:bg-slate-600 rounded-full blueShadow text-white  sm:text-sm md:text-lg  flex items-center  space-x-2"
-              onClick={scrollToContact}
+              onClick={() => scrollToSection("contact")}
             >
               Let&apos;s Connect  <span className="ml-4"><ArrowRightCircle size={30} /></span> 
             </button>

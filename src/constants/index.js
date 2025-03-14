@@ -3,7 +3,9 @@ import project2 from "../assets/projects/project-2.jpg";
 import project3 from "../assets/projects/project-3.jpg";
 import project4 from "../assets/projects/project-4.jpg";
 
-export const HERO_CONTENT = `"With over 5 years of experience, I specialize in full-stack web development with a focus on React and the MERN stack, alongside expertise in graphic design. I have delivered impactful deep learning projects using Python and TensorFlow, combining technical proficiency and creativity to develop dynamic applications and designs. I thrive on creating innovative solutions that leave a lasting impact."`;
+export const HERO_CONTENT = `I am a passionate Full-Stack Developer and Graphic Designer with expertise in MERN stack, UI/UX, and AI-driven applications. With experience in web and mobile app development, branding, and deep learning, I build innovative digital solutions. Currently, I work as a Senior ICT Expert at the Prime Minister’s Office of Ethiopia (Unity Park) and also freelance in website development, mobile apps, and design. I am always eager to create, innovate, and deliver impactful technology solutions.
+
+`;
 
 export const ABOUT_TEXT = `I am a dedicated and versatile full-stack developer with a strong focus on building efficient and scalable web applications using the MERN stack. With over 5 years of professional experience, I have honed my expertise in React, Node.js, and MongoDB, complemented by delivering impactful deep learning projects using Python and TensorFlow. My journey in tech has been driven by a passion for blending creativity and technical skill, allowing me to craft innovative solutions that meet both user and business needs. In addition to web development, I excel in graphic design, leveraging tools like Adobe Creative Suite to bring ideas to life. I thrive in collaborative environments and enjoy exploring emerging technologies to deliver high-quality, cutting-edge solutions`;
 

@@ -29,7 +29,7 @@ const experience = [
   {
     job: "Full-Stack Developer",
     company: "DZ Software Engineering PLC",
-    year: "2020 - Present",
+    year: "Sep 2018 - Nov 2018",
     responsibilities: [
       "developed a website for the company’s product",
       "collaborating closely with a team",
