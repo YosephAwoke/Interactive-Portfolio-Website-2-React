@@ -62,26 +62,26 @@ const NavBar = () => {
           {/* Social Icons */}
           <div className="flex items-center gap-4 text-2xl text-gray-300">
             <a
-              href="https://linkedin.com"
+              href="https://www.linkedin.com/in/yosephawoke/"
               target="_blank"
               rel="noopener noreferrer"
             >
               <FaLinkedin className="hover:text-cyan-400 transition duration-300" />
             </a>
             <a
-              href="https://github.com"
+              href="https://github.com/YosephAwoke"
               target="_blank"
               rel="noopener noreferrer"
             >
               <FaGithub className="hover:text-cyan-400 transition duration-300" />
             </a>
             <a
-              href="https://instagram.com"
+              href="https://www.instagram.com/yoseph.awoke/"
               target="_blank"
               rel="noopener noreferrer"
             >
               <FaInstagram className="hover:text-cyan-400 transition duration-300" />
-            </a>
+            </a> 
           </div>
         </div>
         <div className=" md:flex items-center gap-8 lg:ml-10 text-lg">
@@ -144,21 +144,21 @@ const NavBar = () => {
           {/* Social Icons for Mobile */}
           <div className="mt-4 flex justify-center gap-4 text-2xl text-gray-300">
             <a
-              href="https://linkedin.com"
+              href="https://www.linkedin.com/in/yosephawoke/"
               target="_blank"
               rel="noopener noreferrer"
             >
               <FaLinkedin className="hover:text-cyan-400 transition duration-300" />
             </a>
             <a
-              href="https://github.com"
+              href="https://github.com/YosephAwoke"
               target="_blank"
               rel="noopener noreferrer"
             >
               <FaGithub className="hover:text-cyan-400 transition duration-300" />
             </a>
             <a
-              href="https://instagram.com"
+              href="https://www.instagram.com/yoseph.awoke/"
               target="_blank"
               rel="noopener noreferrer"
             >
