@@ -38,11 +38,11 @@ const Footer = () => {
                 >
                   <img
                     src={logox}
-                    width={200}
-                    className="w-70 h-20 me-3"
+                    width={100}
+                    
                     alt="Jos Logo"
                   />
-                  <span className="self-center text-3xl font-extralight whitespace-nowrap dark:text-white">
+                  <span className="self-center text-4xl font-extralight whitespace-nowrap dark:text-white">
                     Yoseph Awoke
                   </span>
                 </button>
@@ -85,7 +85,7 @@ const Footer = () => {
                 </button>
               </div> */}
             </div>
-            <div className="grid grid-cols-2 gap-8 sm:gap-6 sm:grid-cols-4">
+            <div className="grid grid-cols-2 gap-8 sm:gap-40 sm:grid-cols-4">
               <div className="lg:w-1/2">
                 <h2 className="mb-6 text-sm font-semibold text-gray-900 uppercase dark:text-white text-lg">
                   Resources
@@ -130,7 +130,7 @@ const Footer = () => {
                   </li>
                 </ul>
               </div>
-              <div className="ml-10">
+              {/* <div className="lg:w-1/2">
                 <h2 className="mb-6  font-semibold text-gray-900 text-lg uppercase dark:text-white">
                   Follow Me
                 </h2>
@@ -160,7 +160,7 @@ const Footer = () => {
                     </a>
                   </li>
                 </ul>
-              </div>
+              </div> */}
             </div>
           </div>
           <hr className="my-6 border-gray-200 sm:mx-auto dark:border-gray-700 lg:my-8" />
@@ -172,6 +172,7 @@ const Footer = () => {
             <div className="flex mt-4 sm:justify-center sm:mt-0">
               {/* Social Icons */}
               <div className="flex items-center gap-4 text-2xl text-gray-300">
+                <h2 className="font-light text-xl">Lets keep in touch on socials:</h2>
                 <a
                   href="https://www.linkedin.com/in/yosephawoke/"
                   target="_blank"
