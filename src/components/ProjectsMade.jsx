@@ -37,28 +37,38 @@ const ProjectsMade = () => {
           },
           {
             id: 2,
-            imgSrc: "../projects/project-2.jpg",
+            imgSrc: "../projects/graphics/UP New Map.jpg",
             description: "Project 2 Description",
           },
           {
             id: 3,
-            imgSrc: "../projects/project-3.jpg",
+            imgSrc: "../projects/graphics/EN 2.png",
             description: "Project 3 Description",
           },
           {
             id: 4,
-            imgSrc: "../projects/project-4.jpg",
+            imgSrc: "../projects/graphics/Zebra 1.png",
             description: "Project 4 Description",
           },
           {
             id: 5,
-            imgSrc: "../projects/project-1.jpg",
+            imgSrc: "../projects/graphics/Unity Park BC 3 Front.png",
             description: "Project 5 Description",
           },
           {
             id: 6,
-            imgSrc: "../projects/project-2.jpg",
+            imgSrc: "../projects/graphics/Adwa125th.png",
             description: "Project 6 Description",
+          },
+          {
+            id: 7,
+            imgSrc: "../projects/graphics/Mintes Book Mockup 4.png",
+            description: "Project 3 Description",
+          },
+          {
+            id: 8,
+            imgSrc: "../projects/graphics/JEPG LOGO.jpg",
+            description: "Project 3 Description",
           },
               ].map((project) => (
           <div key={project.id} className="relative group">
