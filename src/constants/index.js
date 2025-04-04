@@ -3,7 +3,7 @@ import project2 from "../assets/projects/project-2.jpg";
 import project3 from "../assets/projects/project-3.jpg";
 import project4 from "../assets/projects/project-4.jpg";
 
-export const HERO_CONTENT = `I am a passionate Full-Stack Developer and Graphic Designer with expertise in MERN stack, UI/UX, and AI-driven applications. With experience in web and mobile app development, branding, and deep learning, I build innovative digital solutions. Currently, I work as a Senior ICT Expert at the Prime Minister’s Office of Ethiopia (Unity Park) and also freelance in website development, mobile apps, and design. I am always eager to create, innovate, and deliver impactful technology solutions.
+export const HERO_CONTENT = `I am a passionate Full-Stack Developer and Graphic Designer with expertise in MERN stack, UI/UX, and AI-driven applications. With experience in web and mobile app development, branding, and deep learning, I build innovative digital solutions. I am always eager to create, innovate, and deliver impactful technology solutions.
 
 `;
 

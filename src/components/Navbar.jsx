@@ -19,7 +19,7 @@ const NavBar = () => {
     <nav className="fixed top-0 left-0 right-5  z-50 text-neutral-300 shadow-lg">
       <div className="flex items-center justify-between mt-2 px-7 max-w-[1600px]   bg-neutral-950 mx-auto md:px-20 lg:px-40 rounded-r-full rounded-l-full border-[0.5px] border-orange-500">
         {/* Logo */}
-        <div className="flex items-center">
+        <div className="flex items-center" onClick={() => scrollToSection("home")}>
           <img className="w-18" src={logo} alt="logo" />
         </div>
 
