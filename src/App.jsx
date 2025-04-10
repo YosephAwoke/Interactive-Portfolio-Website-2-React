@@ -18,6 +18,7 @@ import SubHiroSection from "./components/SubHiroSection";
 // import AboutMeMain from "./components/AboutMe/AboutMeText";
 import AboutMe from "./components/AboutMe/AboutMe";
 import ContactMeMain from "./components/ContactMeSection/ContactMeMain";
+import SkillsSection from "./components/SkillsSection";
 
 const App = () => {
   const contactRef = useRef(null);
@@ -70,7 +71,7 @@ const App = () => {
         </div>
 
         <div id="skills">
-          <Technologies />
+          <SkillsSection />
         </div>
         {/* <div >
           <ExperienceRoute />

@@ -29,6 +29,7 @@ import {
 } from "react-icons/si";
 import Carousel from "react-multi-carousel";
 import "react-multi-carousel/lib/styles.css";
+import SkillsSection from "./SkillsSection";
 
 
 
@@ -254,9 +255,16 @@ const Technologies = () => {
             </div>
           </div>
         </div>
+        <div >
+            <SkillsSection/>
+        </div>
       </div>
     </section>
   );
 };
 
 export default Technologies;
+
+
+
+
