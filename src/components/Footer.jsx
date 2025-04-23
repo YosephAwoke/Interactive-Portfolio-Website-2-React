@@ -165,34 +165,37 @@ const Footer = () => {
           </div>
           <hr className="my-6 border-gray-200 sm:mx-auto dark:border-gray-700 lg:my-8" />
           <div className="sm:flex sm:items-center sm:justify-between">
-            <span className="text-m text-gray-300 sm:text-center ">
+            <span className="text-lg text-gray-300 sm:text-center ">
               © 2024 <a className="hover:underline">Yoseph Awoke™</a>. All
               Rights Reserved.
             </span>
             <div className="flex mt-4 sm:justify-center sm:mt-0">
               {/* Social Icons */}
-              <div className="flex items-center gap-4 text-2xl text-gray-300">
-                <h2 className="font-light text-xl">Lets keep in touch on socials:</h2>
+              <div className="flex items-center gap-4 text-2xl text-gray-300 xl">
+                {/* <h2 className="font-light text-xl">Lets keep in touch on socials:</h2> */}
                 <a
                   href="https://www.linkedin.com/in/yosephawoke/"
                   target="_blank"
                   rel="noopener noreferrer"
+                  className="mr-8 w-10 h-10 flex items-center justify-center rounded-full bg-gray-200 text-gray-800 hover:bg-gray-300 transition duration-300"
                 >
-                  <FaLinkedin className="hover:text-blue-500 transition duration-300" />
+                  <FaLinkedin className="hover:text-blue-500 transition duration-300 w-7 h-7" />
                 </a>
                 <a
                   href="https://github.com/YosephAwoke"
                   target="_blank"
                   rel="noopener noreferrer"
+                  className="mr-6 w-10 h-10 flex items-center justify-center rounded-full bg-gray-200 text-gray-800 hover:bg-gray-300 transition duration-300"
                 >
-                  <FaGithub className="hover:text-gray-800 transition duration-300" />
+                  <FaGithub className="hover:text-gray-800 transition duration-300 w-7 h-7" />
                 </a>
                 <a
                   href="https://www.instagram.com/yoseph.awoke/"
                   target="_blank"
                   rel="noopener noreferrer"
+                  className="mr-6 w-10 h-10 flex items-center justify-center rounded-full bg-gray-200 text-gray-800 hover:bg-gray-300 transition duration-300"
                 >
-                  <FaInstagram className="hover:text-pink-500 transition duration-300" />
+                  <FaInstagram className="hover:text-pink-500 transition duration-300 w-7 h-7" />
                 </a>
               </div>
             </div>
