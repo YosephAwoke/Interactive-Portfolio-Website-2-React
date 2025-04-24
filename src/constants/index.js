@@ -1,6 +1,6 @@
-import project1 from "../assets/projects/project-1.jpg";
-import project2 from "../assets/projects/project-2.jpg";
-import project3 from "../assets/projects/project-3.jpg";
+import project1 from "../assets/projects/productstore.png";
+import project2 from "../assets/projects/personalportfolio.jpg";
+import project3 from "../assets/projects/movieapp.png";
 import project4 from "../assets/projects/project-4.jpg";
 
 export const HERO_CONTENT = `I am a passionate Full-Stack Developer and Graphic Designer with expertise in MERN stack, UI/UX, and AI-driven applications. With experience in web and mobile app development, branding, and deep learning, I build innovative digital solutions. I am always eager to create, innovate, and deliver impactful technology solutions.
@@ -42,39 +42,40 @@ export const EXPERIENCES = [
 
 export const PROJECTS = [
   {
+    title: "Ethiopian Traditional Medicinal Plants Classification System",
+    image: project3,
+    description:
+      "An AI-powered web application for classifying Ethiopian traditional medicinal plants and providing detailed information about their uses.",
+    technologies: ["Python", "TensorFlow", "FastAPI", "React.js", "MongoDB"],
+  },
+  {
     title: "E-Commerce Website",
     image: project1,
     description:
-      "A fully functional e-commerce website with features like product listing, shopping cart, and user authentication.",
-    technologies: ["HTML", "CSS", "React", "Node.js", "MongoDB"],
+      "A fully functional e-commerce platform featuring product listings, a shopping cart, secure user authentication, and seamless checkout.",
+    technologies: [ "React", "Node.js", "MongoDB", "Express", "Tailwind CSS"],
   },
   {
-    title: "Task Management App",
+    title: "Personal Portfolio Website",
     image: project2,
     description:
-      "An application for managing tasks and projects, with features such as task creation, assignment, and progress tracking.",
-    technologies: ["HTML", "CSS", "Angular", "Firebase"],
+      "A sleek and responsive personal portfolio showcasing projects, skills, and contact information with modern design aesthetics.",
+    technologies: [ "React", "Tailwind CSS", "Firebase", "HTML", "CSS"],
   },
-  {
-    title: "Portfolio Website",
-    image: project3,
-    description:
-      "A personal portfolio website showcasing projects, skills, and contact information.",
-    technologies: ["HTML", "CSS", "React", "Bootstrap"],
-  },
+  
   {
     title: "Blogging Platform",
     image: project4,
     description:
-      "A platform for creating and publishing blog posts, with features like rich text editing, commenting, and user profiles.",
-    technologies: ["HTML", "CSS", "Vue.js", "Express", "mySQL"],
+      "A dynamic platform for creating and publishing blogs, featuring rich text editing, user profiles, and a commenting system.",
+    technologies: [ "React", "Express", "MongoDB", "HTML", "CSS",],
   },
   {
     title: "Movie App",
-    image: project4,
+    image: project3,
     description:
-      "A platform for creating and publishing blog posts, with features like rich text editing, commenting, and user profiles.",
-    technologies: ["HTML", "CSS", "Vue.js", "Express", "mySQL"],
+      "An engaging movie application that allows users to search for movies, fetch updated movie lists via API, and manage personalized watchlists.",
+    technologies: ["React", "Express", "Node.js", "MongoDB", "Tailwind CSS"],
   },
 ];
 
