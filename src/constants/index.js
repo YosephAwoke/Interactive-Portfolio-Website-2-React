@@ -2,6 +2,8 @@ import project1 from "../assets/projects/productstore.png";
 import project2 from "../assets/projects/personalportfolio.jpg";
 import project3 from "../assets/projects/movieapp.png";
 import project4 from "../assets/projects/project-4.jpg";
+import project5 from "../assets/projects/empimgcls.jpg";
+
 
 export const HERO_CONTENT = `I am a passionate Full-Stack Developer and Graphic Designer with expertise in MERN stack, UI/UX, and AI-driven applications. With experience in web and mobile app development, branding, and deep learning, I build innovative digital solutions. I am always eager to create, innovate, and deliver impactful technology solutions.
 
@@ -43,7 +45,7 @@ export const EXPERIENCES = [
 export const PROJECTS = [
   {
     title: "Ethiopian Traditional Medicinal Plants Classification System",
-    image: project3,
+    image: project5,
     description:
       "An AI-powered web application for classifying Ethiopian traditional medicinal plants and providing detailed information about their uses.",
     technologies: ["Python", "TensorFlow", "FastAPI", "React.js", "MongoDB"],
